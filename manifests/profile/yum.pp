@@ -13,13 +13,7 @@ class topaas::profile::yum {
 
 			# Packages to install
 			$install = [ 'screen',
-				           'ruby',
-				           'cifs-utils',
-				           'vim',
-				           'xinetd',
-				           'telnet',
-				           'git',
-			             'java-1.8.0-oracle.x86_64' ]
+				           'git' ]
 			package {$install: ensure  	=> present}
 		}
 
@@ -40,13 +34,7 @@ class topaas::profile::yum {
 
 			# Packages to install
 			$install = [ 'screen',
-									 'ruby',
-									 'cifs-utils',
-									 'vim',
-									 'xinetd',
-									 'telnet',
-									 'git',
-									 'java-1.8.0-oracle.x86_64' ]
+									 'git' ]
 			package {$install: ensure  	=> present}
 	  }
 	}
