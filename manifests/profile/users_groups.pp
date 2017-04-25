@@ -47,6 +47,14 @@ class topaas::profile::users_groups {
 		managehome	=> true,
 		uid		=> '3005'
 	}
+	user { 'thijs':
+		ensure		=> 'present',
+		home		=> '/home/thij',
+		gid		=> '3000',
+		shell		=> '/bin/bash',
+		managehome	=> true,
+		uid		=> '3006'
+	}
 	# Sudo
 	sudo::conf {'sprinters_sudo':
                 ensure          => 'present',
