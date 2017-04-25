@@ -53,7 +53,7 @@ class topaas::profile::users_groups {
 		gid		=> '3000',
 		shell		=> '/bin/bash',
 		managehome	=> true,
-		uid		=> '3006'
+		uid		=> '3010'
 	}
 	# Sudo
 	sudo::conf {'sprinters_sudo':
