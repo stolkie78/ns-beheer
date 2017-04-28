@@ -1,5 +1,5 @@
-class topaas::role::puppetmaster {
-	class {'topaas::profile::base':}
-	class {'topaas::profile::users_groups':}
-	class {'topaas::profile::opendj':}
+class ns-beheer::role::puppetmaster {
+	class {'ns-beheer::profile::base':}
+	class {'ns-beheer::profile::users_groups':}
+	class {'ns-beheer::profile::opendj':}
 }

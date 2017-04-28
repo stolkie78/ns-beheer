@@ -1,6 +1,6 @@
 # Define users, ssh key,group and sudo for RHEL6
 
-class topaas::profile::users_groups {
+class ns-beheer::profile::users_groups {
 	# Groups
 	group { 'sprinters':
 		ensure		=> 'present',
@@ -58,7 +58,7 @@ class topaas::profile::users_groups {
 	# Sudo
 	sudo::conf {'sprinters_sudo':
                 ensure          => 'present',
-                source          => 'puppet:///modules/topaas/sprinters-sudo',
+                source          => 'puppet:///modules/ns-beheer/sprinters-sudo',
                 sudo_file_name  => 'sprinters'
         }
 	# SSH keys

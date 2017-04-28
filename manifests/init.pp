@@ -1,3 +1,3 @@
-class topaas {
-  notify {'TOPAAS':}
+class ns-beheer {
+  notify {'ns-beheer':}
 }

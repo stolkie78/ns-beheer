@@ -1,5 +1,5 @@
-class topaas:role:jenkins_server {
-	class {'topaas::profile::base':}
-	class {'topaas::profile::users_groups':}
-	class {'topaas::profile::jenkins::server_stable':}
+class ns-beheer:role:jenkins_server {
+	class {'ns-beheer::profile::base':}
+	class {'ns-beheer::profile::users_groups':}
+	class {'ns-beheer::profile::jenkins::server_stable':}
 }

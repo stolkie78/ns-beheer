@@ -1,8 +1,8 @@
 {
-  "name": "ns-topaas",
+  "name": "ns-beheer",
   "version": "0.1.0",
   "author": "ns",
-  "summary": "NS Topaas specifieke instellingen",
+  "summary": "NS specifieke beheer instellingen",
   "license": "Apache-2.0",
   "source": "",
   "project_page": null,
