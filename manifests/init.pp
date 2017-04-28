@@ -1,3 +1,3 @@
-class ns-beheer {
-  notify {'ns-beheer':}
+class beheer {
+  notify {'beheer':}
 }

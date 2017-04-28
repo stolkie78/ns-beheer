@@ -1,4 +1,4 @@
-class ns-beheer::role::loadbalancer {
-  include 'ns-beheer::profile::base'
-  include 'ns-beheer::profile::users_groups'
+class beheer::role::loadbalancer {
+  include 'beheer::profile::base'
+  include 'beheer::profile::users_groups'
 }

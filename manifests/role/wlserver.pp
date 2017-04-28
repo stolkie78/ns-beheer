@@ -1,5 +1,5 @@
-class ns-beheer::role::wlserver {
-	class {'ns-beheer::profile::base':}
-	class {'ns-beheer::profile::users_groups':}
-	class {'ns-beheer::profile::yum':}
+class beheer::role::wlserver {
+	class {'beheer::profile::base':}
+	class {'beheer::profile::users_groups':}
+	class {'beheer::profile::yum':}
 }

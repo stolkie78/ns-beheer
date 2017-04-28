@@ -1,6 +1,6 @@
 # Define users, ssh key,group and sudo for RHEL6
 
-class ns-beheer::profile::users_groups {
+class beheer::profile::users_groups {
 	# Groups
 	group { 'sprinters':
 		ensure		=> 'present',
@@ -58,7 +58,7 @@ class ns-beheer::profile::users_groups {
 	# Sudo
 	sudo::conf {'sprinters_sudo':
                 ensure          => 'present',
-                source          => 'puppet:///modules/ns-beheer/sprinters-sudo',
+                source          => 'puppet:///modules/beheer/sprinters-sudo',
                 sudo_file_name  => 'sprinters'
         }
 	# SSH keys

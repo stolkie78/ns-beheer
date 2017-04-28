@@ -1,3 +1,3 @@
-class ns-beheer::role::jenkins_slave {
-	class {'ns-beheer::profile::jenkins::slave':}
+class beheer::role::jenkins_slave {
+	class {'beheer::profile::jenkins::slave':}
 }

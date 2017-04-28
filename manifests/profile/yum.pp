@@ -1,7 +1,7 @@
 # rhel6/base
 # Define all generic Linux settings and packages for RHEL6
 
-class ns-beheer::profile::yum {
+class beheer::profile::yum {
 	case $operatingsystemmajrelease {
 	  '6': {
 			yumrepo { "RHEL6_CUSTOM_NS":

@@ -1,5 +1,5 @@
-class ns-beheer::role::puppetmaster {
-	class {'ns-beheer::profile::base':}
-	class {'ns-beheer::profile::users_groups':}
-	class {'ns-beheer::profile::opendj':}
+class beheer::role::puppetmaster {
+	class {'beheer::profile::base':}
+	class {'beheer::profile::users_groups':}
+	class {'beheer::profile::opendj':}
 }

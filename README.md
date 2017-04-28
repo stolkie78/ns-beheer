@@ -1,12 +1,12 @@
-# ns-beheer
+# beheer
 
 #### Table of Contents
 
 1. [Description](#description)
-1. [Setup - The basics of getting started with ns-beheer](#setup)
-    * [What ns-beheer affects](#what-ns-beheer-affects)
+1. [Setup - The basics of getting started with beheer](#setup)
+    * [What beheer affects](#what-beheer-affects)
     * [Setup requirements](#setup-requirements)
-    * [Beginning with ns-beheer](#beginning-with-ns-beheer)
+    * [Beginning with beheer](#beginning-with-beheer)
 1. [Usage - Configuration options and additional functionality](#usage)
 1. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 1. [Limitations - OS compatibility, etc.](#limitations)
@@ -25,7 +25,7 @@ management, etc.), this is the time to mention it.
 
 ## Setup
 
-### What ns-beheer affects **OPTIONAL**
+### What beheer affects **OPTIONAL**
 
 If it's obvious what your module touches, you can skip this section. For
 example, folks can probably figure out that your mysql_instance module affects
@@ -47,7 +47,7 @@ If your most recent release breaks compatibility or requires particular steps
 for upgrading, you might want to include an additional "Upgrading" section
 here.
 
-### Beginning with ns-beheer
+### Beginning with beheer
 
 The very basic steps needed for a user to get the module up and running. This
 can include setup steps, if necessary, or it can be an example of the most
@@ -81,4 +81,4 @@ know what the ground rules for contributing are.
 If you aren't using changelog, put your release notes here (though you should
 consider using changelog). You can also add any additional sections you feel
 are necessary or important to include here. Please use the `## ` header.
-# ns-ns-beheer
+# ns-beheer
